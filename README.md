@@ -14,7 +14,7 @@
 
 | Menu (Browse items) | Chat (AI conversation) | Cart (Order summary) |
 | :---: | :---: | :---: |
-| <img src="screenshots/menu.png" width="250" /> | <br><br>*(Add Chat screenshot here)*<br><br> | <br><br>*(Add Cart screenshot here)*<br><br> |
+| <img src="screenshots/menu.png" width="250" /> | <br><br>*(Add Chat screenshot here)*<br><br> | <img src="screenshots/cart.png" width="250" /> |
 
 ---
 
