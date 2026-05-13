@@ -12,16 +12,9 @@
 
 ## 📸 Screenshots
 
-```
-┌─────────────────┐  ┌─────────────────┐  ┌─────────────────┐
-│                 │  │                 │  │                 │
-│                 │  │                 │  │                 │
-│      MENU       │  │      CHAT       │  │      CART       │
-│                 │  │                 │  │                 │
-│                 │  │                 │  │                 │
-└─────────────────┘  └─────────────────┘  └─────────────────┘
-   Browse items         AI conversation      Order summary
-```
+| Menu (Browse items) | Chat (AI conversation) | Cart (Order summary) |
+| :---: | :---: | :---: |
+| <img src="screenshots/menu.png" width="250" /> | <br><br>*(Add Chat screenshot here)*<br><br> | <br><br>*(Add Cart screenshot here)*<br><br> |
 
 ---
 
