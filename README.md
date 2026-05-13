@@ -6,7 +6,7 @@
 
 ## 📽️ Demo
 
-[📽️ Watch 5-min demo](LOOM_URL_HERE)
+[📽️ Watch 5-min demo](https://www.loom.com/share/2860cb57ba8b4e779efac03a3efa0118)
 
 ---
 
