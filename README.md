@@ -89,7 +89,7 @@ npx expo start  # scan QR with Expo Go
 
 - **Claude Code (Anthropic)** — scaffolding, debugging dependency issues, structured prompt engineering
 - **Cursor** — iterative edits and refactors
-- **Build time:** ~2 days
+- **Build time:** ~1 days
 
 ---
 
