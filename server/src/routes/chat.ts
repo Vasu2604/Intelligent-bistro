@@ -10,12 +10,14 @@ const MODEL = "openai/gpt-oss-20b";
 
 console.log(`[chat] Using model: groq(${MODEL})`);
 
+const HistoryMessageSchema = z.object({
+  role: z.enum(["user", "assistant", "system"]),
+  content: z.string(),
+});
+
 const RequestSchema = z.object({
   message: z.string(),
-  history: z.array(z.object({
-    role: z.enum(["user", "assistant"]),
-    content: z.string(),
-  })).optional(),
+  history: z.array(HistoryMessageSchema).optional().default([]),
 });
 
 router.post("/", async (req, res) => {
@@ -26,6 +28,8 @@ router.post("/", async (req, res) => {
   }
 
   const { message, history } = result.data;
+  const totalChars = history.reduce((sum, m) => sum + m.content.length, 0) + message.length;
+  console.log(`[chat] history chars: ${totalChars}, messages: ${history.length}`);
   const messages = [...(history ?? []), { role: "user" as const, content: message }];
 
   try {
